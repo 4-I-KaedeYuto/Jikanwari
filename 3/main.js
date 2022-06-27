@@ -40,11 +40,11 @@ window.onload = function(){
         var cell = table.rows[i].cells[cell_index];
         if(cell != null){
             cell.dataset.highlight_line = "true";
-            cell.innerHTML = "<span>" + cell.innerText + "</span>"
+            cell.innerHTML = "<span>" + cell.innerText + "</span>";
         }
         if(cell_index == 6 && (cell = table.rows[i].cells[7]) != null){
-            cell.dataset.highlight_line = "true"
-            cell.innerHTML = "<span>" + cell.innerText + "</span>"
+            cell.dataset.highlight_line = "true";
+            cell.innerHTML = "<span>" + cell.innerText + "</span>";
         }
     }
 }
