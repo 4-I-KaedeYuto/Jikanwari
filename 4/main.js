@@ -9,7 +9,8 @@ const END_CLASS_TIMES = [
     [15, 05],
     [15, 55],
     [16, 45],
-    [17, 35]
+    [17, 35],
+    [18, 25]
 ];
 
 window.onload = function(){
